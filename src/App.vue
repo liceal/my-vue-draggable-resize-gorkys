@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <h1>个人</h1>
+    <My/>
+
+    <h1>官方</h1>
+
     <div style="height: 800px; width: 1200px; border: 1px solid red; position: relative;margin: 0 auto">
       <vue-draggable-resizable
         :w="200"
@@ -63,10 +68,12 @@
 <script>
 import VueDraggableResizable from './components/vue-draggable-resizable'
 import './components/vue-draggable-resizable.css'
+import My from './my.vue'
 export default {
   name: 'app',
   components: {
-    VueDraggableResizable
+    VueDraggableResizable,
+    My
   },
   data () {
     return {

@@ -1,3 +1,10 @@
+# 个人补充
+```
+node 14.16.1
+
+```
+
+
 <h1 align="center">VueDraggableResizable 2</h1>
 
 [![Latest Version on NPM](https://img.shields.io/npm/v/vue-draggable-resizable.svg?style=flat-square)](https://npmjs.com/package/vue-draggable-resizable-gorkys)
